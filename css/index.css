@@ -1,0 +1,184 @@
+@import url("fonts.css");
+
+html {
+    background-color: black;}
+body {
+    background: url("../pics/1-3f2.jpg") no-repeat;
+    width: 1000px;
+    margin: 0px auto 0px auto;}
+a {
+    outline: none;
+    text-decoration: none;}
+h1 {
+    color: gold;
+    text-align: center;
+    width: 80%;
+    margin: 40px auto 40px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;}
+ul.nav {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;}
+.nav li {
+    display: inline;
+    margin-right: -3px;}
+.nav a {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -o-border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+    background-color: rgba(255,255,0,0.6);
+    color: black;
+    margin-top: 91px;
+    width: 75px;
+    text-align: center;}
+#one, .nav a:hover {
+    background-color: rgba(0,0,0,0.6);
+    color: yellow;}
+.map {
+    float: left;
+    width: 637px;
+    margin-right: 24px;}
+#map {
+    color: yellow;
+    text-align: center;
+    margin: 15px;}
+.mbut {
+    width: 250px;
+    float: left;
+    margin: 41px;
+    padding: 0px;}
+.mbut a {
+    color: yellow;}
+.plus {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 40px;
+    color: green;}
+.mbut img {
+    border-style: none;}
+figure {
+    margin: 18px;
+    padding: 0px;
+    text-align: center;
+    color: yellow;}
+figcaption {
+    margin-top: 10px;}
+hr {
+    width: 100%;
+    border: none;
+    color: gold;
+    background-color: gold;
+    height: 1px;}
+p.bot {
+    margin-bottom: 0px;
+    text-align: center;
+    color: gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5em;}
+.bot a {
+    color: white;}
+.table {
+    float: left;
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 37px;}
+.table td {
+    border:1px dotted gold;}
+th {
+    background-color: gold;
+    color: black;}
+td {
+    text-align: left;}
+tr:hover  {
+    background-color: rgba(255,255,255,0.15);}
+th, td {
+    border:  none;
+    padding: 10px;}
+th.one {
+    width: 300px;}
+th.two {
+    width: 50px;
+    text-decoration: underline;}
+.digit {
+    padding-left: 30px;}
+.call {
+    width: 100%;
+    border: none;}
+.call a {
+    color: white;}
+.call td {
+    text-align: center;
+    width: 190px;}
+.mega a {
+    color: #00ff00;}
+.bee a {
+    color: #ffcc00;}
+.mtc a {
+    color: #ff3300;}
+.sun, .moon {
+    list-style: none;
+    padding-left: 30px;}
+.sun {
+    background: url("../pics/sun24-2.png") no-repeat 0 4px;}
+.moon {
+    background: url("../pics/moon24-2.png") no-repeat 0 4px;}
+.price {
+    float: left;
+    width: 33%;}
+ul.price {
+    color: #ffcc00;
+    border-radius: 30px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 10px;
+   -o-border-radius: 10px;
+    margin-left: 32%;
+    margin-bottom: 50px;
+    padding-bottom: 3px;
+    list-style: none;}
+.afm {
+    margin-top: 58%;}
+.afhm {
+    margin-top: 35%;}
+#dp {
+    color: #00ff00;}
+#np {
+    color: #ff3300;}
+input {
+    height: 2em;
+    width: 30%;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -o-border-radius: 10px;
+    padding-left: 5px;
+    margin-top: 1px;
+    color: gold;
+    font-size: 18px;
+    outline:none;}
+input:active {
+    outline: none;}
+input:focus {
+    outline: none;}
+#new_message {
+    display: none;}
+button {
+    background-color: gold;
+    border: none;
+    border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -o-border-radius: 20px;}
+button:active {
+    outline: none;}
+button:focus {
+    outline: none;}
+button:hover {
+    background-color: white;}

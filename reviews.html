@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+       <title> Службы Такси города Прохлпдного </title>
+       <link href="css/index.css" rel="stylesheet" type="text/css">
+       <script src="http://code.jquery.com/jquery-latest.js"></script>
+       <script type="text/javascript">
+	    $(document).ready(function (){
+	     $('#command > button').click(function (){
+	        toggle();
+	        $('#new_message :text').get(0).select();
+	     });
+	     $('#new_message .cansel').click(function (){
+	        toggle();
+	     });
+	     $('#new_message .add').click(function (){
+	        var val;
+	        val=$('#new_message :text').val();
+	        val='<section>'+val+'</section>'
+	        $('#list').prepend(val);
+	        toggle();
+	        $('#new_message :text').val('');
+	     });
+	    });
+	    function  toggle() {
+	     $('#command > button').slideToggle();
+	     $('#new_message').slideToggle();
+	    };
+       </script>
+ </head>
+ <body>
+ <br/>
+  <header>
+   <nav>
+    <ul class="nav">
+     <li><a href="index.html">Главная</a></li>
+     <li><a href="howmany.html">Свободно</a></li>
+     <li><a href="map.html">Карта</a></li>
+     <li><a href="call.html">Заказать</a></li>
+     <li><a id="one" href="reviews.html">Отзывы</a></li>
+    </ul>
+   </nav>
+  </header>
+ <br/>
+ <h1>ВАШИ ОТЗЫВЫ</h1>
+ <p>Чтобы оставить отзыв, нажмите кнопку внизу страницы</p>
+ <br/>
+ <section> Давно пользуюсь такси "Круиз". ИМХО-самое лучшее такси - Сергей С.<br/> <br/>
+           "Три семерки"-реально рулит - Андрюха <br/> <br/>
+           Хотел бы сказать несколько добрых слов в адрес такси "Апельсин"- всегда приветливые операторы,
+           много свободных машин и отличный сервис! - Сидоров И.И. <br/> <br/>
+           "Бумер"-полный отстой !!!!! - Светлана <br/> <br/>
+           Заказал такси в "Капризе", машина приехала через минут 10 примерно,новенькая, чистенькая
+           такое ощущение что водитель ее только с салона забрал.
+           Отличное такси все на высшем уровне!!! - Василий <br/> <br/>
+           Такси отличное и надёжное! Водители очень культурные,пунктуальные и внимательные,приятно ездить.
+           Диспетчера очень вежливые и доброжелательные! Пользуюсь только такси "Круиз" и очень довольна!
+           Рекомендую всем такси "Круиз"! - МАРИНА <br/> <br/>
+           Такси "Апельсин" пользуюсь постоянно, еще ни разу не подводило. Машины в хорошем состоянии,
+           не то что в некоторых,что страшно садиться. Водители не хамы, подарили карту такси. - Иван <br/> <br/>
+           Такси "Бумер" вполне меня устраивает, пользуюсь не первый год.
+           Нравится система бонусов, езжу часто поэтому часто пользуюсь расплатой бонусами,выгодно.
+           Машины подаются вовремя, если задерживается всегда предупреждают. - КИРИЛЛ ПЕТРОВ
+ </section>
+ <section>
+  <div id='list'></div>
+ </section>
+	<div id='command'>
+	    <button class="add0">Добавить отзыв</button>
+	    <div id='new_message'>
+	        <input type='text'/>
+	        <button class='add'>Добавить</button>
+	        <button class='cansel'>Отмена</button>
+	    </div>
+	</div>
+  <footer>
+  <hr/>
+   <p class="bot">
+      Дизайн сайта: <span id="name">Герасимов Олег</span> <br/>
+      E-mail автора: <a href="mailto:vektor07@inbox.ru">vektor07@inbox.ru</a>
+   </p>
+  </footer>
+ </body>
+</html>
